@@ -35,7 +35,6 @@ main-nav {
 .nav-item a[target="_blank"] {
     text-decoration: underline; /* Extra indicatie voor externe links */
 }
-
 @font-face {
     font-family: 'Ivy'; 
     src: url("../fonts/Helvetica\ Now\ Display.woff2") format("woff2");
@@ -46,6 +45,11 @@ main-nav {
     font-family: 'IvyBold';
     src: url("../fonts/Helvetica\ Now\ Display\ Bold.woff2") format("woff2");
     font-weight: 700;
+}
+
+* ::selection {
+    background-color: rgba(0, 0, 0, 0.729); 
+    color: white; 
 }
 /* Achtergrondafbeelding en header */
 
