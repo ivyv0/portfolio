@@ -1,10 +1,4 @@
 
-* {
-    font-family: 'Ivy', sans-serif;
-    color: var(--color-text);
-    background-color: var(--color-background);
-}
-
 @font-face {
     font-family: 'Ivy'; 
     src: url("../fonts/Helvetica\ Now\ Display.woff2") format("woff2");
