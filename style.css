@@ -1,3 +1,10 @@
+
+* {
+    font-family: 'Ivy', sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
 @font-face {
     font-family: 'Ivy'; 
     src: url("../fonts/Helvetica\ Now\ Display.woff2") format("woff2");
@@ -25,12 +32,6 @@
     --line-color-light: light-dark(rgba(0, 0, 0, 0.2), white);
     --color-vak: #151623; 
     --color-text-vak: white; 
-}
-
-body {
-    font-family: 'Ivy', sans-serif;
-    color: var(--color-text);
-    background-color: var(--color-background);
 }
 
 header section:nth-of-type(1) {
@@ -106,14 +107,14 @@ header h2 {
 
 main section:nth-of-type(1) h2 {
     font-size: 3em;
-    font-family: "IvyBold";
+ 
 }
 
 main section:nth-of-type(1) p {
     font-size: 1.3rem;
     color: black;
     margin-left: 1.5em;  
-    font-family: "IvyBold";
+ 
 }
 
 .button {
@@ -257,6 +258,7 @@ main > h2 {
     position: relative;
     bottom: 0.9em;
     right: 14em;
+    
 }
 
 
