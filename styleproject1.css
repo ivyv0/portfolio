@@ -55,6 +55,16 @@ main-nav {
 }
 /* Achtergrondafbeelding en header */
 
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 
 :root {
     color-scheme: light dark;
@@ -155,7 +165,7 @@ main > section:nth-of-type(2) h2 {
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-family: "IvyBold";
-    margin: 5em;
+    margin-top: 3em;
 
 }
 
